@@ -3338,6 +3338,10 @@ react-devtools-core@^2.5.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-native-config@^0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/react-native-config/-/react-native-config-0.11.2.tgz#654621832f927ad075fb189eadf0469f627467aa"
+
 react-native@0.51.0:
   version "0.51.0"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.51.0.tgz#fe25934b3030fd323f3ca1a70f034133465955ed"
