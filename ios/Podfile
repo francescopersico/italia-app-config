@@ -7,6 +7,25 @@ target 'ItaliaApp' do
 
   # Pods for ItaliaApp
 
+  pod 'React', :path => "../node_modules/react-native", :subspecs => [
+    "Core",
+    "ART",
+    "RCTActionSheet",
+    "RCTAnimation",
+    "RCTCameraRoll",
+    "RCTGeolocation",
+    "RCTImage",
+    "RCTNetwork",
+    "RCTText",
+    "RCTVibration",
+    "RCTWebSocket",
+    "DevSupport",
+    "BatchedBridge"
+  ]
+
+  # Explicitly include Yoga if you are using RN >= 0.42.0
+  pod "Yoga", :path => "../node_modules/react-native/ReactCommon/yoga"
+
   target 'ItaliaAppTests' do
     inherit! :search_paths
     # Pods for testing
